@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE9EC;
+}
+
+.header__text{
+    position: relative;
+    top: 168px;
+    left: 132px;
+}
+
+
+.flexbox{
+    display: flex;
+}
+
+
+.header__text p{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 0.14px;
+}
+
+.header__card-box{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 248px;
+    left: 132px;
+    width: 358px;
+    height: 122px; 
+    background-color: #fff;
+    cursor: pointer;
+    transition: 1s; 
+}
+
+.header__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header__icons-img img{
+    margin: 14px 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.header__icons-scr i{
+    color: #9D9D9D;
+}
+
+.header__name-time{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 16px;
+}
+
+
+.header__name p , .header__time p{
+    font-size: 15px;
+    color: #9D9D9D;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+
+.header__name p:nth-child(2){
+    font-size: 15px;
+    color: black;
+}
+
+
+
+.header__middle-paragrap p{
+    font-size: 16px;
+    color: #9D9D9D;
+}
+
+.header__card-block{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 248px;
+    left: 182px;
+    width: 358px;
+    height: 122px; 
+    background-color: rgba(255, 192, 203, 0.612);
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+.header__card-block:hover{
+    box-shadow: -30px 20px 20px rgba(0, 0, 0, 0.258);
+}
+.header__card-box:hover{
+    box-shadow: -30px 20px 20px rgba(0, 0, 0, 0.258);
+}
+
+.header__reddiv{
+    width: 5px;
+    height: 100%;
+    background-color: red;
+}
+
+.header__names p , .header__times p{
+    font-size: 15px;
+    color: #000;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+
+.header__names p:nth-child(2){
+    font-size: 15px;
+    color: red;
+}
+
+.header__middle-paragraps p{
+    font-size: 16px;
+    color: #000;
+}
+
+.header__icons-scrs i{
+    color: #000;
+}
